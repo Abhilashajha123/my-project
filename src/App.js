@@ -16,8 +16,8 @@ export default class App extends Component {
         <Menu/>
         
         <Route path="/" exact component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
+        <Route path="/my-project/about" component={About}/>
+        <Route path="/my-project/contact" component={Contact}/>
 
         
       </div>
